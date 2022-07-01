@@ -10,7 +10,7 @@ import (
 )
 
 func handleIndex(w http.ResponseWriter, r *http.Request) {
-	json.NewEncoder(w).Encode("{\"message\":\"Hello World\"}")
+	json.NewEncoder(w).Encode("{\"message\":\"Hello John Doe\"}")
 }
 
 func main() {
